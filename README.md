@@ -12,3 +12,10 @@ git add .
 git commit -m "Commit comment"
 git remote add origin <repo url>
 git push -u origin master
+
+## Updating repo
+
+git status
+git add .
+git commit -m "Commit comment"
+git push origin master
