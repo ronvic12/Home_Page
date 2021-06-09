@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                 physics: NeverScrollableScrollPhysics(),
                 children: [
                   for (var benefit in benefits)
-                    Image.asset('assets/images/benefits/$benefit.png')
+                    Image.asset('assets/images/$benefit.png')
                 ]),
           )
         ],
