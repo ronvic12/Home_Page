@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                 hintText: 'Search'),
           ),
           SizedBox(height: 30),
-          Text('All Benefits',
+          Text('All DIscounts',
               style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20)),
           SizedBox(height: 10),
           SizedBox(
@@ -52,10 +52,12 @@ class HomePage extends StatelessWidget {
                 padding: EdgeInsets.zero,
                 crossAxisCount: 2,
                 childAspectRatio: 1.491,
-                physics: NeverScrollableScrollPhysics(),
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 10,
+                // physics: NeverScrollableScrollPhysics(),
                 children: [
-                  for (var benefit in benefits)
-                    Image.asset('assets/images/$benefit.png')
+                  for (var discount in discounts)
+                    Image.asset('assets/images/$discount.png')
                 ]),
           )
         ],
@@ -64,9 +66,10 @@ class HomePage extends StatelessWidget {
   }
 }
 
-final benefits = [
+final discounts = [
   'Ali_Baba',
   'Davis_Creamery',
   'UC_Davis_Football',
-  'Sac_Kings'
+  'Sac_Kings',
+  'The_Vault'
 ];
