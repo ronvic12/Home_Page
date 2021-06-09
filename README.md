@@ -2,4 +2,4 @@
 
 Simple Home Page for OpportunityKnocks app
 
-<img src="./screenshots/1.png" width="300">
+<img src="./screenshots/screenshot_6-8.png" width="300">
