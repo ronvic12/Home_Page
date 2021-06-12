@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                 hintText: 'Search'),
           ),
           SizedBox(height: 30),
-          Text('All DIscounts',
+          Text('All Discounts',
               style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20)),
           SizedBox(height: 10),
           SizedBox(
@@ -69,7 +69,7 @@ class HomePage extends StatelessWidget {
 final discounts = [
   'Ali_Baba',
   'Davis_Creamery',
-  'UC_Davis_Football',
+  'The_Vault',
   'Sac_Kings',
-  'The_Vault'
+  'UC_Davis_Football'
 ];
